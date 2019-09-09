@@ -1,0 +1,45 @@
+{
+  "title": "liuzhenhua's common_editor",
+  "rules": [
+    {
+      "description": "一些公共的编辑器快捷行为（其他配置文件里没有配置的）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "return_or_enter",
+
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "e",
+              "modifiers": [
+                "left_control"
+              ]
+            },
+            {
+              "key_code": "return_or_enter"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.google\\.android\\.studio$",
+                "^com\\.jetbrains\\.*"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
