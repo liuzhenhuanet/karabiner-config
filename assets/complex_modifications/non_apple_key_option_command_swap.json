@@ -1,0 +1,122 @@
+{
+  "title": "非苹果键盘",
+  "rules": [
+    {
+      "description": "交换Option和Command按键",
+      "manipulators": [
+        {
+          "description": "right command to right option",
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_option"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "device_unless",
+              "identifiers": [
+                {
+                  "vendor_id": 76,
+                  "description": "Apple Keyboard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "right option to right command",
+          "type": "basic",
+          "from": {
+            "key_code": "right_option",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "device_unless",
+              "identifiers": [
+                {
+                  "vendor_id": 76,
+                  "description": "Apple Keyboard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "left command to left option",
+          "type": "basic",
+          "from": {
+            "key_code": "left_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_option"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "device_unless",
+              "identifiers": [
+                {
+                  "vendor_id": 76,
+                  "description": "Apple Keyboard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "left option to left command",
+          "type": "basic",
+          "from": {
+            "key_code": "left_option",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "device_unless",
+              "identifiers": [
+                {
+                  "vendor_id": 76,
+                  "description": "Apple Keyboard"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
