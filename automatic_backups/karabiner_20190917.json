@@ -760,10 +760,11 @@
                                     {
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241
+                                                "description": "Apple Keyboard",
+                                                "is_built_in_keyboard": true
                                             }
                                         ],
-                                        "type": "device_if"
+                                        "type": "device_unless"
                                     }
                                 ],
                                 "description": "right command to right option",
@@ -787,10 +788,11 @@
                                     {
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241
+                                                "description": "Apple Keyboard",
+                                                "is_built_in_keyboard": true
                                             }
                                         ],
-                                        "type": "device_if"
+                                        "type": "device_unless"
                                     }
                                 ],
                                 "description": "right option to right command",
@@ -814,10 +816,11 @@
                                     {
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241
+                                                "description": "Apple Keyboard",
+                                                "is_built_in_keyboard": true
                                             }
                                         ],
-                                        "type": "device_if"
+                                        "type": "device_unless"
                                     }
                                 ],
                                 "description": "left command to left option",
@@ -841,10 +844,11 @@
                                     {
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1241
+                                                "description": "Apple Keyboard",
+                                                "is_built_in_keyboard": true
                                             }
                                         ],
-                                        "type": "device_if"
+                                        "type": "device_unless"
                                     }
                                 ],
                                 "description": "left option to left command",

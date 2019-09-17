@@ -22,11 +22,10 @@
           ],
           "conditions": [
             {
-              "type": "device_unless",
+              "type": "device_if",
               "identifiers": [
                 {
-                  "is_built_in_keyboard": true,
-                  "description": "Apple Keyboard"
+                  "vendor_id": 1241
                 }
               ]
             }
@@ -50,11 +49,10 @@
           ],
           "conditions": [
             {
-              "type": "device_unless",
+              "type": "device_if",
               "identifiers": [
                 {
-                  "is_built_in_keyboard": true,
-                  "description": "Apple Keyboard"
+                  "vendor_id": 1241
                 }
               ]
             }
@@ -78,11 +76,10 @@
           ],
           "conditions": [
             {
-              "type": "device_unless",
+              "type": "device_if",
               "identifiers": [
                 {
-                  "is_built_in_keyboard": true,
-                  "description": "Apple Keyboard"
+                  "vendor_id": 1241
                 }
               ]
             }
@@ -106,11 +103,10 @@
           ],
           "conditions": [
             {
-              "type": "device_unless",
+              "type": "device_if",
               "identifiers": [
                 {
-                  "is_built_in_keyboard": true,
-                  "description": "Apple Keyboard"
+                  "vendor_id": 1241
                 }
               ]
             }
