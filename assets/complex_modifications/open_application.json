@@ -1,13 +1,14 @@
 {
-  "title": "liuzhenhua's tab",
+  "title": "打开软件快捷键",
   "rules": [
     {
-      "description": "hack tab as left_control left_option left_command",
+      "description": "打开软件快捷键",
       "manipulators": [
         {
+          "description": "Open Terminal",
           "type": "basic",
           "from": {
-            "key_code": "tab",
+            "key_code": "y",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -22,39 +23,15 @@
           },
           "to": [
             {
-              "key_code": "tab"
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_terminal"
             }
           ]
         },
         {
+          "description": "Open Youdao Dict",
           "type": "basic",
           "from": {
-            "key_code": "tab",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_command",
-              "modifiers": [
-                "left_control",
-                "left_option"
-              ]
-            }
-          ],
-          "to_if_alone": [
-            {
-              "key_code": "tab"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "h",
+            "key_code": "y",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -68,17 +45,38 @@
           },
           "to": [
             {
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_youdao_dict"
             }
           ]
         },
         {
+          "description": "Open Chrome",
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_option",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_chrome"
+            }
+          ]
+        },
+        {
+          "description": "Open Main Work Application",
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -92,17 +90,15 @@
           },
           "to": [
             {
-              "key_code": "down_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/local/bin/open_main_work_application"
             }
           ]
         },
         {
+          "description": "Open Youdao Note",
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "n",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -116,17 +112,15 @@
           },
           "to": [
             {
-              "key_code": "up_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_youdao_note"
             }
           ]
         },
         {
+          "description": "Open Studio",
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "m",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -140,17 +134,15 @@
           },
           "to": [
             {
-              "key_code": "right_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_markdown_typora"
             }
           ]
         },
         {
+          "description": "Open Studio",
           "type": "basic",
           "from": {
-            "key_code": "open_bracket",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -164,17 +156,15 @@
           },
           "to": [
             {
-              "key_code": "page_up",
-              "modifiers": [
-                "left_shift"
-              ]
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_android_studio"
             }
           ]
         },
         {
+          "description": "Open Idea",
           "type": "basic",
           "from": {
-            "key_code": "close_bracket",
+            "key_code": "period",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -188,10 +178,52 @@
           },
           "to": [
             {
-              "key_code": "page_down",
-              "modifiers": [
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_idea"
+            }
+          ]
+        },
+        {
+          "description": "Open WebStorm",
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_option",
                 "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
               ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_webstorm"
+            }
+          ]
+        },
+        {
+          "description": "Open WebStorm",
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_option"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "sh /Users/liuzhenhua/Workspace/tools/open-applications/open_pycharm"
             }
           ]
         }
