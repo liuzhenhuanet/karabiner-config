@@ -26,6 +26,9 @@
               "identifiers": [
                 {
                   "vendor_id": 1241
+                },
+                {
+                  "vendor_id": 3897
                 }
               ]
             }
@@ -53,6 +56,9 @@
               "identifiers": [
                 {
                   "vendor_id": 1241
+                },
+                {
+                  "vendor_id": 3897
                 }
               ]
             }
@@ -80,6 +86,9 @@
               "identifiers": [
                 {
                   "vendor_id": 1241
+                },
+                {
+                  "vendor_id": 3897
                 }
               ]
             }
@@ -107,6 +116,9 @@
               "identifiers": [
                 {
                   "vendor_id": 1241
+                },
+                {
+                  "vendor_id": 3897
                 }
               ]
             }
