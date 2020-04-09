@@ -244,31 +244,6 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "return_or_enter",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_command",
-                                            "left_control",
-                                            "left_option",
-                                            "left_shift"
-                                        ],
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "up_arrow",
-                                        "modifiers": [
-                                            "left_control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
                                     "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
